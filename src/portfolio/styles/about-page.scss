@@ -11,9 +11,9 @@ body {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
-  grid-auto-columns: 1fr 1fr 1fr;
+  'bioimage bio'
+  'job1 job2';
+  grid-auto-columns: 1fr 1fr;
   }
 
 .bio-image {
@@ -40,12 +40,8 @@ body {
   grid-area: job2;
 }
 
-.job-3 {
-  grid-area: job3;
-}
-
 .job {
-  background: lighten($primary-color, 10);
+  background: lighten($primary-color, 5);
   padding: 0.5rem;
   border-bottom: 5px solid $secondary-color;
   text-align: center;

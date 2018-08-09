@@ -6,12 +6,10 @@
 
 }
 
-
 // Desktops & Laptops
 @include mediaLg {
 
 }
-
 
 // Tablets & Small laptops
 @include mediaMd {
@@ -64,8 +62,6 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
 
 // Smartphones
 @include mediaSm {
