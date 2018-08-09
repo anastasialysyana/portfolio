@@ -59,6 +59,10 @@
   div.job {
     margin-top: 30px;
   }
+
+  div.projects {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
@@ -67,5 +71,9 @@
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+  }
+
+  div.projects {
+    grid-template-columns: 1fr;
   }
 }
