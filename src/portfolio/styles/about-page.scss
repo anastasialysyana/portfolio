@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+@import "media-queries";
+@import "mobile";
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+  'bioimage bio bio'
+  'job1 job2 job3';
+  grid-auto-columns: 1fr 1fr 1fr;
+  }
+
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid $secondary-color;
+  width: 250px;
+  height: 250px;
+  background-image: url("../../assets/assets_portfolio/photo.jpg");
+  background-size: cover;
+}
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem;
+}
+
+.job-1 {
+   grid-area: job1;
+}
+
+.job-2 {
+  grid-area: job2;
+}
+
+.job-3 {
+  grid-area: job3;
+}
+
+.job {
+  background: lighten($primary-color, 5);
+  padding: 0.5rem;
+  border-bottom: 5px solid $secondary-color;
+  text-align: center;
+}
