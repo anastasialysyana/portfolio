@@ -11,10 +11,10 @@ const baseConf = (_path) => {
     const entry = {
         // index: ['babel-polyfill', './src/index/index_page.js'],
         project: ['babel-polyfill', './src/project/project.js'],
-        index_page: ['babel-polyfill', './src/index_page/index_page.js'],
-        about: ['babel-polyfill', './src/about/about.js'],
-        works: ['babel-polyfill', './src/works/works.js'],
-        contacts: ['babel-polyfill', './src/contacts/contacts.js'],
+        // index_page: ['babel-polyfill', './src/index_page/index_page.js'],
+        // about: ['babel-polyfill', './src/about/about.js'],
+        // works: ['babel-polyfill', './src/works/works.js'],
+        // contacts: ['babel-polyfill', './src/contacts/contacts.js'],
         // portfolio: ['babel-polyfill', './src/portfolio/index_page.js'],
 
 
