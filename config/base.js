@@ -10,7 +10,7 @@ const baseConf = (_path) => {
     const VENDORS_NAME = 'vendors';
     const entry = {
         // index: ['babel-polyfill', './src/index/index_page.js'],
-        // themoviebox: ['babel-polyfill', './src/themoviebox/themoviebox.js'],
+        project: ['babel-polyfill', './src/project/project.js'],
         index_page: ['babel-polyfill', './src/index_page/index_page.js'],
         about: ['babel-polyfill', './src/about/about.js'],
         works: ['babel-polyfill', './src/works/works.js'],
